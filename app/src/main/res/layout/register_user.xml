@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/login"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <EditText
+        android:id="@+id/txtNombre"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="Nombre completo"
+        android:layout_margin="20dp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/txtApellido"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="Apellido Completo"
+        android:layout_margin="20dp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="Correo"
+        android:layout_margin="20dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:drawableStart="@drawable/baseline_login_24"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="Usuario"
+        android:layout_margin="20dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:drawableStart="@drawable/vector_lock"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="Contraseña"
+        android:layout_margin="20dp"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btnRegitrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_700"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Ingresar Datos" />
+
+</LinearLayout>

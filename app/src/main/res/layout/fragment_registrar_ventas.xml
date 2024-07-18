@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_registrar_venta"
+        />
+
+    <EditText
+        android:id="@+id/txtNombreProductoV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite el nombre Producto"
+        android:inputType="text"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/txtNombreUsuarioV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite el nombre del Usuario"
+        android:inputType="text"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/descripcionVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite Observación si tuviera"
+        android:inputType="text"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles de la venta:"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/detalleVenta"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_marginHorizontal="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnComprobarVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comprobar venta"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAgregarVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Venta"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

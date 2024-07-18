@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="single" android:title="Borrador">
+
+    </group>-->
+    <item
+        android:id="@+id/borrame"
+        android:title="Borrame">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:checkable="true"
+                android:title="@string/menu_home" />
+            <item
+                android:id="@+id/nav_productos"
+                android:icon="@drawable/article"
+                android:title="Productos"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/nav_registrar_producto"
+                android:icon="@drawable/ic_registrar_producto"
+                android:title="Registrar Producto"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Venta"
+        android:title="Ventas">
+        <menu>
+            <item
+                android:id="@+id/nav_ventas"
+                android:icon="@drawable/ic_venta"
+                android:title="Ventas"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/nav_registrar_venta"
+                android:icon="@drawable/ic_registrar_venta"
+                android:title="Registrar Venta"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Administrador"
+        android:title="Administrador">
+        <menu>
+            <item
+                android:id="@+id/nav_administrador"
+                android:icon="@drawable/person"
+                android:title="Administradores"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Cliente"
+        android:title="Cliente">
+        <menu>
+            <item
+                android:id="@+id/nav_clientes"
+                android:icon="@drawable/ic_cliente"
+                android:title="Clientes"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/nav_registrar_cliente"
+                android:icon="@drawable/ic_agregar_cliente"
+                android:title="Registrar Cliente"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>

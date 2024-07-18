@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/clients"
+        />
+
+    <EditText
+        android:id="@+id/txtNombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:hint="Digite el nombre del Cliente"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtDireccionCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:hint="Digite direccion AV:"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtTelefonoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:hint="Digíte numero de celular"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnAgregarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/btnBuscarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="Buscar Cliente" />
+
+    <Button
+        android:id="@+id/btnActualizarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="Actualizar" />
+
+</LinearLayout>
